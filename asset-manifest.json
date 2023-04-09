@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/toodle/static/css/main.f1c4fcd3.css",
+    "main.js": "/toodle/static/js/main.825b92e3.js",
+    "static/js/787.9d610ac9.chunk.js": "/toodle/static/js/787.9d610ac9.chunk.js",
+    "index.html": "/toodle/index.html",
+    "main.f1c4fcd3.css.map": "/toodle/static/css/main.f1c4fcd3.css.map",
+    "main.825b92e3.js.map": "/toodle/static/js/main.825b92e3.js.map",
+    "787.9d610ac9.chunk.js.map": "/toodle/static/js/787.9d610ac9.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.f1c4fcd3.css",
+    "static/js/main.825b92e3.js"
+  ]
+}
