@@ -1,0 +1,77 @@
+/*===Heading: Toodle===*/
+.heading {
+    background-color: #dfe7fd;
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px;
+}
+
+.heading h1 {
+    text-align: center;
+    font-size: 50px;
+    text-transform: uppercase;
+    color: #222;
+    letter-spacing: 1px;
+    font-family: "Playfair Display", serif;
+    font-weight: 400;
+}
+
+.heading h1 span {
+    margin-top: 5px;
+    font-size: 15px;
+    color: black;
+    word-spacing: 1px;
+    font-weight: normal;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    font-family: "Raleway", sans-serif;
+
+    display: grid;
+    grid-template-columns: 1fr max-content 1fr;
+    grid-template-rows: 27px 0;
+    grid-gap: 20px;
+    align-items: center;
+}
+
+.heading h1 span:after,
+.heading h1 span:before {
+    content: " ";
+    display: block;
+    border-bottom: 1px solid #ccc;
+    border-top: 1px solid #ccc;
+    height: 5px;
+    background-color: #f8f8f8;
+}
+
+/*===Subheading: Add a ToDo===*/
+
+.subheading h3 {
+    text-align: center;
+    padding-bottom: 5px;
+    font-family: "Raleway", sans-serif;
+    color: #b80000
+}
+
+/* 
+.subheading h3:before {
+    width: 28px;
+    height: 5px;
+    display: block;
+    content: "";
+    position: absolute;
+    bottom: 3px;
+    left: 50%;
+    margin-left: -14px;
+    background-color: #b80000;
+} */
+
+.subheading h3:after {
+    width: 100px;
+    height: 2px;
+    display: block;
+    content: "";
+    position: relative;
+    margin-top: 10px;
+    left: 50%;
+    margin-left: -50px;
+    background-color: black;
+}
