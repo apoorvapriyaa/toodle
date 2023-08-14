@@ -8,7 +8,6 @@ export default function TodoList(props) {
     return (
         <div className="container" style={myStyle}>
             {props.todos.length === 0 ? <p>Todo List is empty</p> :
-
                 props.todos.map((todo) => {
                     return <Todo todo={todo} key={todo.sno} onDelete={props.onDelete} />
                 })

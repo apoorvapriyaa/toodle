@@ -51,19 +51,6 @@
     color: #b80000
 }
 
-/* 
-.subheading h3:before {
-    width: 28px;
-    height: 5px;
-    display: block;
-    content: "";
-    position: absolute;
-    bottom: 3px;
-    left: 50%;
-    margin-left: -14px;
-    background-color: #b80000;
-} */
-
 .subheading h3:after {
     width: 100px;
     height: 2px;

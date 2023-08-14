@@ -42,8 +42,6 @@ function App() {
     localStorage.setItem("todos", JSON.stringify(todos))
   }, [todos])
 
-
-
   return (
     <>
       <div className="workspace my-4">
